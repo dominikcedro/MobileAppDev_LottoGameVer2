@@ -14,7 +14,7 @@ class StartActivity : AppCompatActivity() {
 
 
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, NumbSelectionActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }, (3) * 1000L)
 

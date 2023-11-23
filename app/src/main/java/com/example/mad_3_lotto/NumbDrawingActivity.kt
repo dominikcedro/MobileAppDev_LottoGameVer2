@@ -94,7 +94,7 @@ class NumbDrawingActivity : AppCompatActivity() {
         fun hideButtons() {
             for (number in 0 until 6) {
                 val button = findViewById<Button>(getButtonID(number))
-                    button.visibility = View.INVISIBLE
+                button.visibility = View.INVISIBLE
             }
         }
         fun checkWin(RandomNumbers:MutableSet<Int>, recievedNumbers:MutableSet<Int>){
@@ -111,7 +111,7 @@ class NumbDrawingActivity : AppCompatActivity() {
             }else if (commonNumbers.size == 6){
                 winmessage.text = "You had 6 common numbers! One way ticket to rich-ville!"
 
-        }}
+            }}
 
 
         numbersGeneratedButton.setOnClickListener {
@@ -125,15 +125,10 @@ class NumbDrawingActivity : AppCompatActivity() {
 
             }
             showButtons()
-                if (numbersRecieved != null) {
-                    checkWin(RandomNumbers, numbersRecieved)
-                }
+            if (numbersRecieved != null) {
+                checkWin(RandomNumbers, numbersRecieved)
+            }
         }
 
     }
 }
-
-
-
-
-

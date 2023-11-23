@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/alreadyuser"
+        android:id="@+id/notUser"
         android:layout_width="269dp"
         android:layout_height="33dp"
         android:layout_marginStart="72dp"
@@ -19,38 +19,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_play" />
-
-    <EditText
-        android:id="@+id/text_email3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="101dp"
-        android:ems="10"
-        android:hint="repeat password"
-        android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_email2" />
-
-    <EditText
-        android:id="@+id/text_email2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="101dp"
-        android:layout_marginBottom="27dp"
-        android:ems="10"
-        android:hint="password"
-        android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/text_email3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_email" />
 
     <ImageView
         android:id="@+id/logo_lotto"
@@ -67,7 +35,7 @@
         android:layout_height="46dp"
         android:layout_marginStart="53dp"
         android:layout_marginEnd="54dp"
-        android:text="Please register"
+        android:text="Please sign in"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,7 +63,7 @@
         android:layout_marginTop="26dp"
         android:layout_marginEnd="101dp"
         android:ems="10"
-        android:hint="name"
+        android:hint="password:"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -103,16 +71,16 @@
 
     <Button
         android:id="@+id/btn_play"
-        android:layout_width="127dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="37dp"
-        android:layout_marginEnd="160dp"
-        android:layout_marginBottom="28dp"
-        android:text="Sign up"
-        app:layout_constraintBottom_toTopOf="@+id/alreadyuser"
+        android:layout_width="138dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="68dp"
+        android:text="Login"
+        app:layout_constraintBottom_toTopOf="@+id/notUser"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_email3" />
+        app:layout_constraintTop_toBottomOf="@+id/text_email" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

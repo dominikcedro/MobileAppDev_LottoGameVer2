@@ -3,4 +3,10 @@
     <string name="title_activity_start">StartActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="less_than_3_common_numbers">You had less than 3 common numbers! Maybe next time!</string>
+    <string name="a3_common_numbers">You had 3 common numbers! You fig with poppy seeds!</string>
+    <string name="a4_common_numbers">You had 4 common numbers! You win a broken penny!</string>
+    <string name="a5_common_numbers">You had 5 common numbers! Cha-ching!</string>
+    <string name="a6_common_numbers">You had 6 common numbers! You win $win</string>
+
 </resources>
